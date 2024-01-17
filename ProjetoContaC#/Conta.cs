@@ -37,6 +37,7 @@ namespace ProjetoContaC_
             this.numero = numero;
             this.titular = titular;
 			this.saldo = saldo;	
+			this.titular = new Cliente(titular,"012345678901");
 		}
 
 		public void depositar(double valor)
